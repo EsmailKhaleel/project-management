@@ -1,6 +1,6 @@
 # Project Management Application
 
-![Project Icon](src/assets/note.png)
+<img src="src/assets/note.png" alt="Project Icon" width="100" height="100">
 
 A modern React-based project management application built with Vite and styled using Tailwind CSS. This application allows users to manage projects and associated tasks efficiently with a clean, intuitive interface.
 
