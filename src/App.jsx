@@ -1,10 +1,11 @@
-import React, { useState, createContext } from 'react'
+import { useState, createContext } from 'react'
 import ProjectSideBar from './Components/ProjectSideBar'
 import NewProject from './Components/NewProject'
 import NoProjectSelected from './Components/NoProjectSelected'
 import SelectedProject from './Components/SelectedProject'
 
 export const TaskContext = createContext(null);
+
 function App() {
 
   const [projectsState, setProjectsState] = useState({

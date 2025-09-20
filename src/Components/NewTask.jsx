@@ -1,7 +1,7 @@
-import React, { useState, useContext } from 'react'
+import { useState, useContext } from 'react'
 import { TaskContext } from '../App';
 function NewTask() {
-    const { handleAddTask, handleDeleteTask } = useContext(TaskContext);
+    const { handleAddTask } = useContext(TaskContext);
     const [enteredTask, setEnteredTask] = useState('');
 
 

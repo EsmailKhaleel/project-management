@@ -1,4 +1,3 @@
-import React from 'react'
 import noProjectImg from '../assets/note.png'
 import Button from './Button'
 

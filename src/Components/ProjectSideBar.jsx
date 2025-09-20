@@ -1,10 +1,9 @@
-import React from 'react'
 import Button from './Button';
 
 
 function ProjectSideBar({ onStartAddProject, projects, onSelectProject, selectedProjectId }) {
   return (
-    <aside className='w-1/3 px-8 py-16 bg-stone-900 text-stone-50 md:w-72 rounded-r-2xl' >
+    <aside className='w-1/3 px-8 py-16 bg-stone-900 text-stone-50 md:w-72 rounded-tr-2xl' >
       <h2 className='mb-8 font-bold uppercase md:text-2xl text-stone-50'>Your Projects</h2>
       <div>
         <Button onClick={onStartAddProject}>+ Add Project</Button>
